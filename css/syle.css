@@ -12,7 +12,7 @@
 
 .theme-dark #panel>div.status-up {
     color: #FFF;
-    background: #263026;
+    background: #0e7a0e;
 }
 
 .theme-dark #panel>div.status-started {
@@ -44,7 +44,7 @@
 
 .theme-light #panel>div {
     color: #000;
-    background: #FFF;
+    background: #0e7a0e;
     border: 2px solid #DDD;
 }
 
