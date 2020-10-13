@@ -35,6 +35,7 @@ componenets.forEach(function (component) {
 
 Promise.all(statusPromises).then(function (statusArray) {
     var template = document.querySelector(".check-template");
+    document.getElementById("loading-indicator").remove();
 
     function createUIComponents(node) {
         var fragment = document.createDocumentFragment();
