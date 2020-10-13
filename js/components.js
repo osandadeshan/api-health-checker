@@ -18,10 +18,13 @@ var componenets = [{
     url: "https://maxsoft-mock-server-demo.web.app/users/1"
 }, {
     name: "Videos",
-    url: "https://maxsoft-mock-server-demo.web.app/videos/2964"
+    url: "https://maxsoftlk-services/api/2964"
 }, {
     name: "Photos",
     url: "https://maxsoft-mock-server-demo.web.app/photos/29647"
+}, {
+    name: "Docs",
+    url: "https://maxsoftlk-api/api/453"
 }]
 
 var statusPromises = [];
