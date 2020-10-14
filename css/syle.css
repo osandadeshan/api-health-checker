@@ -20,7 +20,6 @@
     background: #263026;
 }
 
-
 .theme-dark #panel>div.status-grace {
     color: #000;
     background: #FFB300;
@@ -35,17 +34,18 @@
     border-color: #4c604c transparent #4c604c transparent;
 }
 
+
 /* Colors, light theme */
 
 .theme-light {
     background: #FFF;
-    color: #333;
+    color: #000;
 }
 
 .theme-light #panel>div {
     color: #000;
     background: #0e7a0e;
-    border: 2px solid #DDD;
+    border: none;
 }
 
 .theme-light #panel>div.status-grace {
@@ -65,41 +65,36 @@
 }
 
 
-/* Spinner from https://loading.io/css/ */
-.spinner {
-    display: none;
-}
+/* Loader from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5
+Center the loader */
 
-div.status-started .spinner {
+.loader {
     position: absolute;
-    right: 8px;
+    left: 50%;
     top: 50%;
-    margin-top: -18px;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-}
-
-.spinner:after {
-    content: " ";
-    display: block;
-    width: 24px;
-    height: 24px;
-    margin: 1px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border: 5px solid transparent;
-    animation: lds-dual-ring 1.25s linear infinite;
-}
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
-@keyframes lds-dual-ring {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 /* Layout and font */
 
