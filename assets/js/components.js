@@ -25,6 +25,41 @@
       name: "Docs",
       description: "Sample description",
       url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+    },
+    {
+      name: "Docs",
+      description: "Sample description",
+      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
     }
   ];
 
@@ -51,14 +86,15 @@
     );
     el.setAttribute("data-aos", "zoom-in");
     el.setAttribute("data-aos-delay", "zoom-in200");
+
     container.appendChild(el).innerHTML = `
     <div class="icon-box" style="margin-bottom:15px; ${
-      status !== 200 ? "background-color:red; color:##FFF;" : ""
+      status !== 200 ? "background-color:#ef5c5c;" : ""
     }">
-        <div class="icon"><i class="ri-stack-line"></i></div>
-        <h4 class="title"><a href="">${name}</a></h4>
-        <p class="description"><b>Response code: ${status}</b></p>
-        <p class="description">${description}</p>
+        <div class="icon" style="${status !== 200 ? "color:#fff;" : "color:#2487ce;"}"><i class="ri-stack-line"></i></div>
+        <h4 class="title"><a href="" style="${status !== 200 ? "color:#fff;" : "color:#124265;"}">${name}</a></h4>
+        <p class="description" style="${status !== 200 ? "color:#fff;" : "color:#124265;"}"><b>Response code: ${status}</b></p>
+        <p class="description" style="${status !== 200 ? "color:#fff;" : "color:#124265;"}">${description}</p>
     </div>
     `;
   }
