@@ -1,6 +1,6 @@
 (() => {
   const container = document.getElementById("health-boxes");
-  const apiUrls = [
+  const services = [
     {
       name: "Mock Server",
       description: "This service will be using for all the mock server functions.",
@@ -29,7 +29,7 @@
   ];
 
   // Looping through the api endpoints and get the status
-  apiUrls.map((endpoint) => {
+  services.map((endpoint) => {
     fetch(endpoint.url, {
       headers: {
         "Access-Control-Allow-Origin": "*",
