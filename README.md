@@ -11,8 +11,8 @@ This is project can be used for that purpose.
 **Steps:**
 1. Clone this project
 2. Open the project in VSCode
-3. Open "components.js" located in "api-health-checker/blob/master/assets/js/components.js"
-4. Change the "services" object array in line number 3, with your backend services' data
+3. Open "**components.js**" located in "**api-health-checker/blob/master/assets/js/components.js**"
+4. Change the "**services**" object array in **line number 3**, with your backend services' data
 5. Save the changes
 6. Deploy the website
 
