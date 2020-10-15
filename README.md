@@ -16,5 +16,4 @@ This is project can be used for that purpose.
 5. Save the changes
 6. Deploy the website
 
-**Note:**
-When you are deploying this website, it should be deployed with the same domain of the backend services. Otherwise, it will occur [CORS issue.](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+**Note: When you are deploying this website, it should be deployed with the same domain of the backend services. Otherwise, it will occur [CORS issue.](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
