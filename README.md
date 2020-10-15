@@ -8,7 +8,7 @@ This is project can be used for that purpose.
 **Pre-requisites**
 * [VSCode](https://code.visualstudio.com/download)
 
-** Steps**
+**Steps**
 1. Clone this project
 2. Open the project in VSCode
 3. Open "components.js" located in "api-health-checker/blob/master/assets/js/components.js"
