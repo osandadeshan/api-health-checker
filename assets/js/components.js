@@ -12,19 +12,19 @@
       url: "https://maxsoft-mock-server-demo.web.app/users/1",
     },
     {
-      name: "Document Management",
-      description: "This service will be using for all the document management functions.",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
       name: "Barcode Management",
       description: "This service will be using for all the barcode management functions.",
-      url: "https://world.openfoodfacts.org/api/v0/product/health",
+      url: "https://maxsoft-mock-server-demo.web.app/barcode",
+    },
+    {
+      name: "Document Management",
+      description: "This service will be using for all the document management functions.",
+      url: "https://maxsoft-mock-server-demo.web.app/photos/29647",
     },
     {
       name: "Careers Management",
       description: "This service will be using for all the career management functions.",
-      url: "https://jobs.github.com/positions.json?description=api&location=new+york",
+      url: "https://maxsoft-mock-server-demo.web.app/careers",
     }
   ];
 
