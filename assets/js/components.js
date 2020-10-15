@@ -2,64 +2,29 @@
   const container = document.getElementById("health-boxes");
   const apiUrls = [
     {
-      name: "Welcome",
-      description: "Sample description",
+      name: "Mock Server",
+      description: "This service will be using for all the mock server functions.",
       url: "https://maxsoft-mock-server-demo.web.app/say/hello?name=Osanda",
     },
     {
-      name: "Users",
-      description: "Sample description",
+      name: "User Management",
+      description: "This service will be using to view, create, edit, and delete a user.",
       url: "https://maxsoft-mock-server-demo.web.app/users/1",
     },
     {
-      name: "Videos",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/api/2964",
-    },
-    {
-      name: "Photos",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/photos/29647",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
+      name: "Document Management",
+      description: "This service will be using for all the document management functions.",
       url: "https://maxsoft-mock-server-demo.web.app/docs/453",
     },
     {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+      name: "Barcode Management",
+      description: "This service will be using for all the barcode management functions.",
+      url: "https://world.openfoodfacts.org/api/v0/product/health",
     },
     {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
-    },
-    {
-      name: "Docs",
-      description: "Sample description",
-      url: "https://maxsoft-mock-server-demo.web.app/docs/453",
+      name: "Careers Management",
+      description: "This service will be using for all the career management functions.",
+      url: "https://jobs.github.com/positions.json?description=api&location=new+york",
     }
   ];
 
