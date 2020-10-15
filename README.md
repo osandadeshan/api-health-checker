@@ -5,10 +5,10 @@ When we are working on a real project it is vital to have dashbaord where we can
 This is project can be used for that purpose.
 
 ## How to use?
-**Pre-requisites**
+**Pre-requisites:**
 * [VSCode](https://code.visualstudio.com/download)
 
-**Steps**
+**Steps:**
 1. Clone this project
 2. Open the project in VSCode
 3. Open "components.js" located in "api-health-checker/blob/master/assets/js/components.js"
